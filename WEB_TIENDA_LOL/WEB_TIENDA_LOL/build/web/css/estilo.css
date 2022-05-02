@@ -1,0 +1,142 @@
+
+body{
+    margin:0px;
+    background-color: #f3edf7;
+	font-family:  Sans-serif;
+}
+ol{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.banner video{
+	position:relative;
+	top:10px;
+	left:0;
+	object-fit:cover;
+	width:100%;
+	height:100%;
+	pointer-events:none;
+}
+figure{
+    margin:10px;
+    padding:100px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 150px;
+    height: 80px;
+}
+.header {
+    background-color:#131314;
+    margin: 0px;
+    margin-bottom: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.header a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header li{
+    padding: 10px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.container{
+    display: flex;
+    width: 1050px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+}
+
+.productos h1{
+    text-transform: uppercase;
+    color: #1111ed;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.productos h3{
+    color: #1111ed;
+}
+
+.opciones{
+    border-color: transparent;
+    padding: 10px 10px 8px 20px;
+    width: 220px;
+    color:#9c9c9c;
+    font-size: 15px;
+}
+.flexbox{
+    display: flex;
+}
+
+.cajas{
+    margin-top:15px;       
+}
+
+
+.filas{
+    display: flex;
+}
+.description{
+    text-align: center;
+    height: 300px;
+    width: 240px;
+    margin: 15px;
+}
+
+.description img{
+    width: 230px;
+    height: 200px;
+}
+
+.description h4{
+    margin: 0px;
+    color: rgb(22,29,28);    
+}
+
+.description h5{
+    margin-top: 4px;
+    margin-bottom: 5px;
+    color: rgb(77, 75, 75);
+}
+
+.description button{
+    margin-bottom: 6px;
+    background-color: #1542d6;
+    height: 30px;
+    
+}
+.footer{
+    background-color: #2a3132;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
